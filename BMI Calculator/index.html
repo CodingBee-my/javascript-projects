@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
+  <title>BMI Calculator</title>
+</head>
+<body>
+  <div class="hero is-danger is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-size-1">BMI Calculator</h1>
+        <h2 class="subtitle">
+          Body Mass Index (BMI) is a measure of body size. Result of BMI can give an idea about whether a person has the healthy weight for their height
+        </h2>
+
+        <br>
+        <div class="columns">
+          <div class="column is-offset-one-quarter is-one-quarter">
+            <div class="field">
+              <div class="control">
+                <input id="weightInput" class="input" type="number" placeholder="Weight">
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-quarter">
+            <div class="field">
+              <div class="control">
+                <input id="heightInput" class="input" type="number" placeholder="Height">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="has-text-centered">
+          <div class="button" onclick="calculateBMI()">Calculate BMI!</div>
+        </div>
+
+        <br>
+
+        <div id="result">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

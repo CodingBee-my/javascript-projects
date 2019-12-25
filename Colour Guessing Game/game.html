@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="title">
+          Guess the colour
+        </div>
+        <div class="colour-code">
+          RGB(0, 0, 0)
+        </div>
+        <div>
+          <span class="circle" onclick="onCircleClicked(0)"></span>
+          <span class="circle" onclick="onCircleClicked(1)"></span>
+          <span class="circle" onclick="onCircleClicked(2)"></span>
+        </div>
+        <p class="score-text">
+          Your score is <span id="score">0</span>
+        </p>
+        <a href="./index.html">
+          Back to home
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+  .colour-code {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+
+  .circle {
+    display: inline-block;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .score-text {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+  </style>
+
+  <script src="./main.js"></script>
+</body>
+</html>
