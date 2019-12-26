@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
+  <title>Number Facts</title>
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">Facts About Numbers</h1>
+        <div>
+          <input id="numberInput" class="input is-large" type="number">
+        </div>
+        <button id="getFactButton" class="button is-large is-primary" onclick="onGetFactClicked()">Get Facts</button>
+        <div id="fact"></div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    #numberInput {
+      width: 20rem;
+    }
+
+    #getFactButton {
+      margin-top: 15px;
+    }
+
+    #fact {
+      margin-top: 50px;
+      font-size: 2rem;
+      font-style: italic;
+    }
+  </style>
+
+  <script src="./main.js"></script>
+</body>
+</html>
