@@ -8,9 +8,13 @@
 - Learn how to generate random number
 - Learn how to manipulate CSS with JavaScript
 
+## Todo List
+- Learn how to work with array
+- Learn how to work with object
+
 ## Date
-- Use external library such as Moment.js
-- Perform manipulation on dates
+- Learn how to use external library such as Moment.js
+- Perform manipulation on dates using Moment.js API
 
 ## Number Facts
 - Learn how REST API works
