@@ -14,9 +14,14 @@ function onGetFactClicked() {
     return
   }
 
+  // Call getFact function with the input parameter
   getFact(number);
 }
 
+//
+//  Declare a getFact function that takes a number
+//  as parameter
+//
 function getFact(number) {
   fetch("http://numbersapi.com/" + number)
     .then(response => {
@@ -27,6 +32,10 @@ function getFact(number) {
     })
 }
 
+//
+//  Declare a displayFact function that takes a string
+//  as parameter and display the string on page
+//
 function displayFact(fact) {
   factTextElement.innerHTML = fact;
 }
