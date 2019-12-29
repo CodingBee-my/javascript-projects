@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+  <title>Date</title>
+</head>
+<body>
+  <div class="hero is-dark is-fullheight is-bold">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div id="date" class="font-size-4 w-700">
+        </div>
+        <div id="time" class="font-size-4 w-700">
+        </div>
+        <br>
+        <div class="columns">
+          <div class="column white-border">
+            <h2 class="subtitle">Days from today</h2>
+            <input id="daysFromDate" class="input" type="date" placeholder="Date">
+            <button class="button is-link is-inverted is-outlined mt-1" onclick="getDaysFromDate()">Get Days</button>
+          </div>
+          <div class="column white-border">
+            <h2 class="subtitle">Date from today</h2>
+            <input id="dateFromDays" class="input" type="number" placeholder="Days">
+            <button class="button is-link is-inverted is-outlined mt-1" onclick="getDateFromToday()">Get Date</button>
+          </div>
+          <div class="column white-border">
+            <h2 class="subtitle">Weeks from date</h2>
+            <input class="input" id="weeksFromDate" type="date" placeholder="Date">
+            <button class="button is-link is-inverted is-outlined mt-1" onclick="getWeeksFromDate()">Get Weeks</button>
+          </div>
+        </div>
+        <div id="result" class="font-size-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+
+  <style>
+    .mt-1 {
+      margin-top: 1rem;
+    }
+
+    .w-700 {
+      font-weight: 700;
+    }
+
+    .font-size-4 {
+      font-size: 4rem;
+    }
+
+    .font-size-3 {
+      font-size: 3rem;
+    }
+
+    .white-border {
+      border: solid 4px white;
+      margin: 5px;
+    }
+  </style>
+</body>
+</html>
