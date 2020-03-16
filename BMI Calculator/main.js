@@ -65,5 +65,6 @@ function calculateBMI() {
     message += "You are obese! Obesity will cause serious health issue."
   }
 
+  // Set display message
   result.innerHTML = message;
 }

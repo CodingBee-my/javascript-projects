@@ -1,3 +1,4 @@
+// Get elements to display today's date & time
 const dateElement = document.querySelector("#date");
 const timeElement = document.querySelector("#time");
 
