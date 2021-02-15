@@ -6,7 +6,11 @@
 
 ## Colour Guessing Game
 - Learn how to generate random number
-- Learn how to manipulate CSS with JavaScript
+- Learn how to manipulate DOM with JavaScript
+
+## Quiz
+- Learn how to work with array
+- Learn how to work with object
 
 ## Todo List
 - Learn how to work with array
