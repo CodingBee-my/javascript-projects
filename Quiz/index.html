@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <title>Animal Fun Quiz</title>
+
+    <style>
+      .card {
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero is-warning is-fullheight is-bold">
+      <div class="hero-body">
+        <div class="container ">
+          <h1 class="title is-size-2 has-text-centered">🐼🐨 Animal Fun Quiz 🦁🐮</h1>
+          <h2 class="subtitle has-text-centered">Answer 10 fun quiz about animals</h2>
+
+          <div class="is-flex is-justify-content-center">
+            <div id="card" class="card p-5">
+              <div id="questionLabel" class="is-size-5">
+              </div>
+              <div id="question" class="mb-3 is-size-5">
+              </div>
+              <div id="radioGroup" class="control has-text-left mb-3">
+                <label class="radio">
+                  <input type="radio" name="answer" value="" />
+                  Yes sdfds f
+                </label>
+                <br />
+                <label class="radio">
+                  <input type="radio" name="answer" />
+                  Nofds
+                </label>
+                <br />
+                <label class="radio">
+                  <input type="radio" name="answer" />
+                  No fdsf d
+                </label>
+                <br />
+                <label class="radio">
+                  <input type="radio" name="answer" />
+                  No
+                </label>
+              </div>
+              <div>
+                <div onclick="onClickNext()" class="button is-warning">
+                  Next
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
