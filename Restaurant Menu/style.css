@@ -1,0 +1,94 @@
+:root {
+    --primary-color: hsl(39, 100%, 50%);
+    --secondary-color: hsl(39, 100%, 35%);
+    --bg-color: rgb(255, 251, 237);
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+.divider {
+    background-color: var(--secondary-color);
+    height: 5px;
+    width: 3em;
+    margin-bottom: 2em;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons > .btn {
+    margin-right: 1em;
+}
+
+.btn {
+    border: 2px solid var(--primary-color);
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+} 
+
+
+.container {
+    width: 80%;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-image {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border: 4px solid var(--primary-color);
+    margin-right: 1em;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    border-bottom: 1px dotted var(--primary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.item-name {
+    font-weight: 600;
+}
+
+.item-price {
+    color: var(--secondary-color);
+}
+
+.active {
+    background-color: var(--primary-color);
+}
