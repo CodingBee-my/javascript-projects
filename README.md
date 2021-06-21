@@ -16,6 +16,14 @@
 - Learn how to work with array
 - Learn how to work with object
 
+## Restaurant Menu
+- DOM manipulation
+- Working with objects and arrays
+
+## Tic Tac Toe
+- Working with event listeners
+- Working nested arrays
+
 ## Date
 - Learn how to use external library such as Moment.js
 - Perform manipulation on dates using Moment.js API
